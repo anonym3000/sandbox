@@ -4,6 +4,3 @@
 /.project
 /composer.lock
 /data/
-
-# Local configs
-config/autoload/*.local.php
