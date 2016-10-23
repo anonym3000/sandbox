@@ -42,7 +42,7 @@ class TestEntity
 	private $state = self::STATUS_DISABLED;
 	
 	/** 
-	 * @ORM\Column(type="string") 
+	 * @ORM\Column(type="string", unique=true) 
 	 **/
 	private $headline;
 	
